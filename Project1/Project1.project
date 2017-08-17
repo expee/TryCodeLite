@@ -9,6 +9,10 @@
   <Dependencies/>
   <VirtualDirectory Name="src">
     <File Name="main.cpp"/>
+    <File Name="FileReader.h"/>
+    <File Name="FileReader.cpp"/>
+    <File Name="DisplayManager.h"/>
+    <File Name="DisplayManager.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
@@ -100,4 +104,8 @@
       </Completion>
     </Configuration>
   </Settings>
+  <VirtualDirectory Name="Managers">
+    <File Name="Managers/Parser.h"/>
+    <File Name="Managers/Parser.cpp"/>
+  </VirtualDirectory>
 </CodeLite_Project>
